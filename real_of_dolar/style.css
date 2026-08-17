@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&display=swap');
+
+body{
+    font-family: "Geomini", sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    margin: 0;
+}
+
+main{
+    min-width: auto;
+}
+
+section{
+    box-shadow: 11px 10px 10px rgb(0, 0, 0, 0.250);
+}

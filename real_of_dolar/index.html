@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brazilian Real to US Dollar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="clear_input.js" defer></script>
+</head>
+<body>
+    <section class="bg-body-secondary rounded p-5">
+        <header>
+            <h1 class="text-center">Brazilian Real to US Dollar</h1>
+        </header>
+        <main class="d-flex align-items-center justify-content-center p-3">
+            <form action="conversion.php" method="post" id="conversionForm">
+                <label for="idreal" class="form-label fs-4">Enter the value in Real R$:</label>
+                <div class="input-group fs-8">
+                    <input type="text" name="real" id="idreal" class="form-control" placeholder="Ex: 16,70" />
+                    <button type="submit" class="btn btn-primary" id="button">
+                        Conversion
+                    </button>
+                </div>
+            </form>
+        </main>
+    </section>
+</body>
+</html>
